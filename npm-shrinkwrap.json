@@ -257,6 +257,11 @@
       "from": "init-package-json@latest",
       "resolved": "https://registry.npmjs.org/init-package-json/-/init-package-json-1.9.5.tgz",
       "dependencies": {
+        "npm-package-arg": {
+          "version": "4.2.1",
+          "from": "npm-package-arg@>=4.0.0 <5.0.0",
+          "resolved": "https://registry.npmjs.org/npm-package-arg/-/npm-package-arg-4.2.1.tgz"
+        },
         "promzard": {
           "version": "0.3.0",
           "from": "promzard@>=0.3.0 <0.4.0",
@@ -624,6 +629,11 @@
               "resolved": "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz"
             }
           }
+        },
+        "npm-package-arg": {
+          "version": "4.2.1",
+          "from": "npm-package-arg@^3.0.0 || ^4.0.0",
+          "resolved": "https://registry.npmjs.org/npm-package-arg/-/npm-package-arg-4.2.1.tgz"
         }
       }
     },
